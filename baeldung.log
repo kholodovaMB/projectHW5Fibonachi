@@ -1,0 +1,6 @@
+2024-03-13 18:40:08 INFO  Recursion call for 5
+2024-03-13 18:40:08 INFO  Recursion call for 4
+2024-03-13 18:40:08 INFO  Recursion call for 3
+2024-03-13 18:40:08 INFO  Recursion call for 2
+2024-03-13 18:40:08 INFO  Basic STEP!
+2024-03-13 18:40:08 INFO  Factorial 5 equal 120
