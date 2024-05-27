@@ -19,6 +19,8 @@ public class Main {
         log.info("ітераційний {} = {}", value, iterativeFibonachi);
         log.info("Час виконання ітераційного методу: " + durationIterative + " наносекунд");
         log.info("Використання пам'яті: " + memoryIterative + " байт");
+        log.info("Часова складність: O(n)\n" +
+                "Просторова складність: O(1)");
         log.info("________________");
 
         startTime = System.nanoTime();
@@ -29,6 +31,8 @@ public class Main {
         log.info("рекурсивний {} = {}", value, recursiveFibonachi);
         log.info("\nЧас виконання рекурсивного методу: " + durationRecursive + " наносекунд");
         log.info("Використання пам'яті: " + memoryRecursive + " байт");
+        log.info("Часова складність: O(2^n)\n" +
+                "Просторова складність: O(n)");
 
         log.info("________________");
         startTime = System.nanoTime();
@@ -39,6 +43,8 @@ public class Main {
         log.info("динамічний {} = {}", value, dynamicProgrammingFibonachi);
         log.info("\nЧас виконання динамічного методу: " + durationDynamic + " наносекунд");
         log.info("Використання пам'яті: " + memoryDynamic + " байт");
+        log.info("Часова складність: O(n)\n" +
+                "Просторова складність: O(n)");
         log.info("________________");
     }
 }

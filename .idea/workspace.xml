@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6864a04a-ab4e-4016-91ea-a6416e307392" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baeldung.log" beforeDir="false" afterPath="$PROJECT_DIR$/baeldung.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/Fibonachi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/Fibonachi.java" afterDir="false" />
+    <list default="true" id="6864a04a-ab4e-4016-91ea-a6416e307392" name="Changes" comment="HW 5 with uml diagram">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.HMB" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UMLDIAGRAMA" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,9 +65,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710347051157</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW 5 with uml diagram">
+      <created>1716794300658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716794300660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="HW 5 with uml diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 5 with uml diagram" />
   </component>
 </project>
