@@ -3,30 +3,43 @@ package org.HMB;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Factorial {
-    private static Logger log = LoggerFactory.getLogger(Factorial.class);
+public class Fibonachi {
+    private static Logger log = LoggerFactory.getLogger(Fibonachi.class);
 
-    private static final int MIN_VALUE = 1;
-    private static final int BASIC_RESULT = 1;
-    private static final int STEP = 1;
+    public static int iterativeFibonachi(int n) {
+        if (n <= 1)
+            return n;
 
-    public long factorial(long n) {
-        if (n <= MIN_VALUE) {
-            log.info("Basic STEP!");
-            return BASIC_RESULT;
-        } else {
-            log.info("Recursion call for {}", n);
-            return factorial(n - STEP) * n;
+        int fib = 1;
+        int prevFib = 1;
+
+        for (int i = 2; i < n; i++) {
+            int temp = fib;
+            fib += prevFib;
+            prevFib = temp;
         }
+
+        return fib;
     }
 
-    public long factorial(long n, int step) {
-        if (n <= MIN_VALUE) {
-            log.info("Basic STEP!");
-            return BASIC_RESULT;
-        } else {
-            log.error("Recursion call for {}", n);
-            return factorial(n - step, step) * n;
+    public static int recursiveFibonachi(int n) {
+        if (n <= 1)
+            return n;
+        return recursiveFibonachi(n - 1) + recursiveFibonachi(n - 2);
+    }
+
+    public static int dynamicProgrammingFibonachi(int n) {
+        if (n <= 1)
+            return n;
+
+        int[] fibArray = new int[n + 1];
+        fibArray[0] = 0;
+        fibArray[1] = 1;
+
+        for (int i = 2; i <= n; i++) {
+            fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
         }
+
+        return fibArray[n];
     }
 }
